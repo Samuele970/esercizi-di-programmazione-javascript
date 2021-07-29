@@ -12,3 +12,11 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var totSeconds = 12560;
+
+var hour = parseInt(seconds / 3600);
+var minutes = parseInt((seconds / 60) - hour*60);
+var seconds = parseInt(seconds - minutes*60 - hour*3600);
+
+console.log(hour, minutes, seconds);
