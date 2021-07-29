@@ -17,3 +17,11 @@
 
   http://www.imparareaprogrammare.it
 */
+var nCat = 5
+var catForQueue = 2
+
+var totQueue =  Math.round(nCat/catForQueue); //file totali
+
+var mCat = totQueue * catForQueue - nCat;
+console.log(mCat, totQueue); //quanti gatti mancano ultima fila e quante file totali
+
