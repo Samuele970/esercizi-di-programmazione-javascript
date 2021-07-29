@@ -11,3 +11,12 @@
 
   http://www.imparareaprogrammare.it
 */
+var today = 2021;
+var myYear = 1997;
+var century = 100;
+
+var myAge = today - myYear; //quanti anni ho
+console.log(myAge);
+
+var topAge = century - myAge; //quanto mi manca per arrivare a 100 anni
+console.log(topAge);
